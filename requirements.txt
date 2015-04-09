@@ -1,2 +1,11 @@
 sphinx
-sphinx-bootstrap-theme
+sphinx_bootstrap_theme
+sphinxcontrib-bibtex
+sphinxcontrib-plantuml
+sphinxcontrib-ansi
+sphinxcontrib-programoutput
+sphinxcontrib-email
+sphinxcontrib-blockdiag
+sphinxcontrib-tikz
+rst2pdf
+

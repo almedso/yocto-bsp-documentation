@@ -35,13 +35,23 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.extlinks',
+    'sphinxcontrib.bibtex',
+    'sphinxcontrib.plantuml',
+    'sphinxcontrib.ansi',
+    'sphinxcontrib.programoutput',
+    'sphinxcontrib.email',
+    'sphinxcontrib.blockdiag',
+    'sphinxcontrib.tikz',
+    'rst2pdf.pdfbuilder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = '.rst'
+source_suffix = '.tt.rst'
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -302,3 +312,20 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'http://docs.python.org/': None}
+
+
+extlinks = {
+    'wikien': (
+        'http://en.wikipedia.org/wiki/%s',
+        'English Wikipedia: '
+    ),
+    'yokto172dev': (
+        'http://www.yoctoproject.org/docs/1.7.2/dev-manual/dev-manual.html#%s',
+        'Yocto 1.7.2 Developer Manual: '
+    ),
+    'yokto172ref': (
+        'http://www.yoctoproject.org/docs/1.7.2/ref-manual/ref-manual.html#%s',
+        'Yocto 1.7.2 Reference Manual: '
+    ),
+}
+
