@@ -209,15 +209,15 @@ Glossary
 
          - :wikien:`Universal Serial Bus`
 
-.. rubric:: Pixmeter BSP
+.. rubric:: almedso BSP
 
 .. glossary::
    :sorted:
 
-   PLOS
-      is a abbreviation for |PLOS long|.
+   AMS
+      is a abbreviation for |AMS long|.
 
-   |PLOS long|
+   |AMS long|
       is a term used for the BSP definition including, distro,
       machines, features, recipes
 

@@ -1,6 +1,6 @@
-.. pxm-bsp-documentation documentation master file
+.. yocto-bsp-documentation documentation master file
 
-Pixmeter's BSP Documentation
+almedso's BSP Documentation
 ============================
 
 .. include:: docrevlog.rst

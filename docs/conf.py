@@ -60,7 +60,7 @@ source_suffix = '.tt.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'pxm-bsp-documentation'
+project = u'yocto-bsp-documentation'
 copyright = u'2015, Volker Kempert'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -196,7 +196,7 @@ html_show_copyright = True
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pxm-bsp-documentation'
+htmlhelp_basename = 'yocto-bsp-documentation'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -216,7 +216,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'pxm-bsp-documentation.tex', u"Pixmeter's BSP Documentation",
+  ('index', 'yocto-bsp-documentation.tex', u"almedso's BSP Documentation",
    u'Volker Kempert', 'manual'),
 ]
 
@@ -243,7 +243,7 @@ latex_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'pxm-bsp-documentation'
+epub_title = u'yocto-bsp-documentation'
 epub_author = u'Volker Kempert'
 epub_publisher = u'Volker Kempert'
 epub_copyright = u'2015, Volker Kempert'

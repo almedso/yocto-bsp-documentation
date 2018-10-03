@@ -1,4 +1,4 @@
-Pixmeter's Machine Definitions
+almedso's Machine Definitions
 ==============================
 
 Machines are derived from publicly available boards.

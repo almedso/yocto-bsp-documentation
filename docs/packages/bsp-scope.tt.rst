@@ -54,17 +54,18 @@ Priority of Dependent Layers
        meta-fsl-arm-extra;
      }
 
-     meta-plos-bsp -> meta-fsl-arm-extra;
-     meta-plos -> poky-meta;
+     meta-ams-bsp -> meta-freescale-distro;
+     meta-ams-bsp -> meta-raspberrypi;
+     meta-ams -> poky-meta;
 
      meta-oe -> poky-meta;
      meta-fsl-arm -> meta-fsl-arm-extra;
 
-     meta-plos-bsp      [numbered = "DI"];
-     meta-plos-bsp      [description = "PLOS BSP Metadata"];
+     meta-ams-bsp      [numbered = "DI"];
+     meta-ams-bsp      [description = "almedso BSP Metadata"];
 
-     meta-plos          [numbered = "DI"];
-     meta-plos          [description = "PLOS Build Tool and Metadata"];
+     meta-ams          [numbered = "DI"];
+     meta-ams          [description = "almedso Build Tool and Metadata"];
 
      meta-oe            [numbered = "DI"];
      meta-oe            [description = "OE/Yocto BSP layer for OpenEmbedded extra packages and features: `DOC <http://www.openembedded.org/>`__, `GIT <https://github.com/openembedded/meta-openembedded>`__"];
@@ -74,12 +75,6 @@ Priority of Dependent Layers
 
      poky-meta-yocto    [numbered = "DI"];
      poky-meta-yocto    [description = "Yocto Build Tool and Metadata: `DOC <https://www.yoctoproject.org/documentation>`__, `GIT <http://git.yoctoproject.org/cgit/cgit.cgi/poky/tree/meta-yocto>`__"];
-
-     meta-fsl-arm       [numbered = "DI"];
-     meta-fsl-arm       [description = "OE/Yocto BSP layer for Freescale's ARM platforms: `DOC <http://freescale.github.io/>`__, `GIT <https://github.com/Freescale/meta-fsl-arm>`__"];
-
-     meta-fsl-arm-extra [numbered = "DI"];
-     meta-fsl-arm-extra [description = "OE/Yocto BSP layer for Freescale's extra ARM platforms: `DOC <http://freescale.github.io/>`__, `GIT <https://github.com/Freescale/meta-fsl-arm-extra>`__"];
 
    }
 

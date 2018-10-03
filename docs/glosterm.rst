@@ -2,8 +2,8 @@
    entry in glossary.tt.rst):
 
 
-.. |PLOS|          replace:: :term:`PLOS`
-.. |PLOS long|     replace:: :term:`Pixmeter Linux Operating System`
+.. |AMS|          replace:: :term:`AMS`
+.. |AMS long|     replace:: :term:`almedso Linux Operating System`
 
 
 .. Tools and SouP:

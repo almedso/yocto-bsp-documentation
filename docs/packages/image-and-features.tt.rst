@@ -28,9 +28,9 @@ the package feed.
 
 .. tabularcolumns:: |p{0.3\textwidth}|p{0.65\textwidth}|
 
-.. _PLOS_DISTROFEATURES:
+.. _AMS_DISTROFEATURES:
 
-.. list-table:: Distribution Features used by |PLOS|
+.. list-table:: Distribution Features used by |AMS|
    :widths: 3 7
    :header-rows: 1
 
@@ -119,7 +119,7 @@ The name of the recipe to build an image is the same as the image.
 
 :plos-image:
 
-   A product image capable of allowing an |PLOS|
+   A product image capable of allowing an |AMS|
    device to boot and provides full feature support.
    Contained features are:
 
@@ -132,7 +132,7 @@ The name of the recipe to build an image is the same as the image.
 
 :plos-image-dev:
 
-   A developer image just capable of allowing an |PLOS|
+   A developer image just capable of allowing an |AMS|
    device to boot and is suitable for cross development work.
    Contained features are:
 
@@ -153,13 +153,13 @@ The name of the recipe to build an image is the same as the image.
 
 :plos-image-minimal:
    A developer image just capable of allowing an
-   |PLOS| device to boot and is suitable for full featured development work.
+   |AMS| device to boot and is suitable for full featured development work.
    Contained features are:
 
    - base-plos (via plos-image bbclass)
 
 :plos-image-minimal-dev:
-   A small image just capable of allowing an |PLOS|
+   A small image just capable of allowing an |AMS|
    device to boot and is suitable for development work. (kernel, rootfs and
    uboot developtment)
    Contained features are:

@@ -1,11 +1,11 @@
-==========================
-Pixmeter BSP Documentation
-==========================
+=========================
+almedso BSP Documentation
+=========================
 
 Introduction
 ============
 
-This this documentation covers the specifics of Pixmeter's BSP's for
+This this documentation covers the specifics of almedso's BSP's for
 COTS boards adapted to the *plos* distribution maintained by pixmeter.
 
 Installation
