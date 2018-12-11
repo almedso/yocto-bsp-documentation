@@ -50,8 +50,7 @@ the package feed.
      - Support of WiFi networks.
    * - xattr
      - Support extended file attributes.
-   * - wayland
-     - Support wayland for graphical displays.
+
 
 System V startup is explicitly excluded.
 
@@ -79,7 +78,7 @@ every custom layer.
 
 .. tabularcolumns:: |p{0.3\textwidth}|p{0.65\textwidth}|
 
-.. _PLOS_IMAGEFEATURES_ARB:
+.. _AMS_IMAGEFEATURES_ARB:
 
 .. list-table:: Arbitrary Image Features
    :widths: 3 7
@@ -108,35 +107,35 @@ Images
 
 The name of the recipe to build an image is the same as the image.
 
-:plos-image-base:
+:ams-image-base:
 
-   The base image of the distribution, where all dependend images
+   The base image of the distribution, where all dependent images
    are intended to start from
 
-   - base-plos (via plos-image bbclass)
+   - base-ams (via ams-image bbclass)
 
 
 
-:plos-image:
+:ams-image:
 
    A product image capable of allowing an |AMS|
    device to boot and provides full feature support.
    Contained features are:
 
-   - base-plos (via plos-image bbclass)
+   - base-ams (via ams-image bbclass)
 
    - ssh-server-openssh
    - package-management
 
 
 
-:plos-image-dev:
+:ams-image-dev:
 
    A developer image just capable of allowing an |AMS|
    device to boot and is suitable for cross development work.
    Contained features are:
 
-   - base-plos (via plos-image bbclass)
+   - base-ams (via ams-image bbclass)
    - debug-tweaks
    - dev-pkgs
    - eclipse-debug
@@ -151,20 +150,20 @@ The name of the recipe to build an image is the same as the image.
 
 
 
-:plos-image-minimal:
+:ams-image-minimal:
    A developer image just capable of allowing an
    |AMS| device to boot and is suitable for full featured development work.
    Contained features are:
 
-   - base-plos (via plos-image bbclass)
+   - base-ams (via ams-image bbclass)
 
-:plos-image-minimal-dev:
+:ams-image-minimal-dev:
    A small image just capable of allowing an |AMS|
    device to boot and is suitable for development work. (kernel, rootfs and
    uboot developtment)
    Contained features are:
 
-   - base-plos (via plos-image bbclass)
+   - base-ams (via ams-image bbclass)
    - dev-pkgs
 
 
@@ -179,7 +178,7 @@ and allow simplification of image composition.
 
 .. tabularcolumns:: |p{0.3\textwidth}|p{0.65\textwidth}|
 
-.. _PLOS_CANONICAL_PKGGRPS:
+.. _AMS_CANONICAL_PKGGRPS:
 
 .. list-table:: Canonical Package Groups
    :widths: 3 7
@@ -187,34 +186,34 @@ and allow simplification of image composition.
 
    * - Package Group
      - Layer
-   * - base-plos
-     - meta-plos
-   * - plos-sdk
-     - meta-plos
-   * - plos-tools-testapps
-     - meta-plos
-   * - plos-tools-cross
-     - meta-plos
-   * - plos-tools-debug
-     - meta-plos
-   * - plos-tools-profile
-     - meta-plos
+   * - base-ams
+     - meta-ams
+   * - ams-sdk
+     - meta-ams
+   * - ams-tools-testapps
+     - meta-ams
+   * - ams-tools-cross
+     - meta-ams
+   * - ams-tools-debug
+     - meta-ams
+   * - ams-tools-profile
+     - meta-ams
 
 Packages sorted into Package Groups
 -----------------------------------
 
 .. tabularcolumns:: |p{0.3\textwidth}|p{0.65\textwidth}|
 
-.. _PLOS_GRPPKGS:
+.. _AMS_GRPPKGS:
 
-.. list-table:: Grouped Packages (in project plos)
+.. list-table:: Grouped Packages (in project ams)
    :widths: 3 7
    :header-rows: 1
 
    * - Package Group
      - Packages
 
-   * - base-plos
+   * - base-ams
      - dconf,
        formfactor,
        apache2,
@@ -222,16 +221,16 @@ Packages sorted into Package Groups
        timestamp-service
 
 
-   * - plos-tools-cross
+   * - ams-tools-cross
      - openssh-sftp-server,
        python-virtualenv,
        vim
 
-   * - plos-tools-testapps
+   * - ams-tools-testapps
      - (evtest),
        i2c-tools
 
-   * - plos-sdk
+   * - ams-sdk
      - bash,
        git,
        python-dbg,
