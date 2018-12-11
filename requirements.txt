@@ -1,5 +1,5 @@
 sphinx
-sphinx_bootstrap_theme
+sphinx_rtd_theme
 sphinxcontrib-bibtex==0.3.0
 sphinxcontrib-plantuml
 sphinxcontrib-programoutput
