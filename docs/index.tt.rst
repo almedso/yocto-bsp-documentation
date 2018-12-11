@@ -15,6 +15,7 @@ almedso's BSP Documentation
 
    machines/index
    packages/index
+   misc
 
 
 .. only:: latex
