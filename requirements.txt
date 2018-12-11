@@ -1,8 +1,7 @@
 sphinx
 sphinx_bootstrap_theme
-sphinxcontrib-bibtex
+sphinxcontrib-bibtex==0.3.0
 sphinxcontrib-plantuml
-sphinxcontrib-ansi
 sphinxcontrib-programoutput
 sphinxcontrib-email
 sphinxcontrib-blockdiag
