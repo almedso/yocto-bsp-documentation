@@ -13,5 +13,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   rodolfo
+   qemu
+   raspberry
    rigoletto

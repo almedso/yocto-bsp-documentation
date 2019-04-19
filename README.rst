@@ -8,6 +8,7 @@ Introduction
 This this documentation covers the specifics of almedso's BSP's for
 COTS boards adapted to the *plos* distribution maintained by pixmeter.
 
+
 Installation
 ============
 
@@ -45,10 +46,19 @@ Browse the documentation (e.g. html):
 Alternatively you can build by just calling *build.sh* script.
 
 
-Todos and Issues
-================
+Use docker
+==========
 
-* TODO
+Alternatively you can build the entire documentation using the docker toolchain via:
+
+.. code:: (bash)
+
+
+   $ cd $THIS_DOCU_PROJECT_HOME
+   $ docker run --rm -it -u $(id -u) -e SOURCE_DIR=docs -v $(pwd):/documents  almedso/sphinx-doc-builder
+   $ # browse the result ...
+   $ firefox build/sphinx/html/index.html
+
 
 Documentation References
 ========================
