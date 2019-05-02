@@ -1,12 +1,16 @@
 Yocto Know-How
 ==============
 
-This is the place to collect basic stuff
+.. only:: html
+
+   .. rubric:: Contents:
+
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
-   tools-cheatsheet
-   machines
+   *
+

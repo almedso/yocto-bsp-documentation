@@ -1,10 +1,10 @@
-sphinx
-sphinx_rtd_theme
-sphinxcontrib-bibtex==0.3.0
-sphinxcontrib-plantuml
-sphinxcontrib-programoutput
-sphinxcontrib-email
-sphinxcontrib-blockdiag
-sphinxcontrib-tikz
-rst2pdf
+#sphinx
+#sphinx_rtd_theme
+#sphinxcontrib-bibtex==0.3.0
+#sphinxcontrib-plantuml
+#sphinxcontrib-programoutput
+#sphinxcontrib-email
+#sphinxcontrib-blockdiag
+#sphinxcontrib-tikz
+#rst2pdf==0.93
 

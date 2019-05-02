@@ -21,10 +21,13 @@ Usage on Yocto
 2. Build the machine an image for the machine
 
    .. code ::
+
       MACHINE=my-qemu-machine bitbake my-image
 
 3. Run the image:
+
    .. code ::
+
       runqemu my-qemu-machine
 
 
@@ -32,14 +35,16 @@ Usage on Yocto
    and passes on arguments collected from the build (like kernel, rootfs)
    and paramters like networks, memory etc as defined by *QB_xyz*
 
-.. note ::
-   graphics does not always run.
-   use the nographic option. e.g.
+   .. note ::
 
-   .. code ::
-      runqemu qemuarm nographic
+      graphics does not always run.
+      use the nographic option. e.g.
 
-   This option is passed on directly to *qemuarm*
+      .. code ::
+
+         runqemu qemuarm nographic
+
+      This option is passed on directly to *qemuarm*
 
 
 References

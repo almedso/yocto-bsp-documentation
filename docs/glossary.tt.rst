@@ -217,8 +217,8 @@ Glossary
    AMS
       is a abbreviation for |AMS long|.
 
-   |AMS long|
-      is a term used for the BSP definition including, distro,
+   almedso Linux Operating System
+      |AMS long| is a term used for the BSP definition including, distro,
       machines, features, recipes
 
 

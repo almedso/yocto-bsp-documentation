@@ -42,7 +42,7 @@ extensions = [
     'sphinxcontrib.email',
     'sphinxcontrib.blockdiag',
     'sphinxcontrib.tikz',
-    'rst2pdf.pdfbuilder',
+    # 'rst2pdf.pdfbuilder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
