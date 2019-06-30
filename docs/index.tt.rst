@@ -15,6 +15,7 @@ almedso's BSP Documentation
 
    machines/index
    packages/index
+   linux_how_to/index
    yocto_how_to/index
    misc
 
