@@ -20,7 +20,7 @@ RUN groupadd --gid $GROUPID yocto || true && \
 
 # install missing doc project specific python packages for sphinx
 # do it as root
-RUN pip3 install sphinxcontrib-email
+# RUN pip install sphinxcontrib-email
 
 # switch user
 USER builder
