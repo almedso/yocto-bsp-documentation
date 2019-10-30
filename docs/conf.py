@@ -39,7 +39,7 @@ extensions = [
     'sphinxcontrib.bibtex',
     'sphinxcontrib.plantuml',
     'sphinxcontrib.programoutput',
-    'sphinxcontrib.email',
+    # 'sphinxcontrib.email',
     'sphinxcontrib.blockdiag',
     'sphinxcontrib.tikz',
     # 'rst2pdf.pdfbuilder',
