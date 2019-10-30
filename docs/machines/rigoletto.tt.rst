@@ -6,7 +6,9 @@ Introduction
 ============
 
 *rigoletto* is based on the RIOTBOARD from NXP/Freescale without any graphics.
-The board contains an IMX6 Single Core, i.e. it is an armv7af architecture
+The board contains an IMX6 Single Core, i.e. it is an armv7af architecture.
+
+Rigoletto is the protagonist of the opera Rigoletto from Verdi.
 
 
 References COTS Board
@@ -20,5 +22,5 @@ Specifics
 =========
 
 * No graphic connected
-* IO Extension board with Arduio outlet / pmod outlet / Raspberrypi outlet
+* IO Extension board with arduino outlet / pmod outlet / raspberrypi outlet
 
