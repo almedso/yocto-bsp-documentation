@@ -22,17 +22,21 @@ node()
         ])
     {
 
-        stage('Build HTML') {
-            myImage.run("html") {}
-        }
-        stage('Build PDF') {
-            myImage.run("pdf") {}
-        }
-
-        myImage.inside("""
+        myImage.inside(""" \
             --volume yocto-publish:/yocto/publish \
             """
         ) {
+            stage('Build HTML') {
+                sh '''#!/bin/bash
+                   echo WORKING-DIR: $(pwd)
+                   /bin/bash /build-doc.sh html
+                   '''
+            }
+            stage('Build PDF') {
+                sh '''#!/bin/bash
+                   /build-doc.sh pdf || true
+                   '''
+            }
             stage('Publish HTML') {
                 sh  """#!/bin/bash
                     mkdir -p /yocto/publish/docs/ /${RELEASE}
