@@ -29,7 +29,7 @@ node()
             stage('Build HTML') {
                 sh '''#!/bin/bash
                    echo WORKING-DIR: $(pwd)
-                   /bin/bash /build-doc.sh html
+                   /build-doc.sh html
                    '''
             }
             stage('Build PDF') {
@@ -39,8 +39,8 @@ node()
             }
             stage('Publish HTML') {
                 sh  """#!/bin/bash
-                    mkdir -p /yocto/publish/docs/ /${RELEASE}
-                    rsync -r -u --exclude 'x86_64*' build/html/* /yocto/publish/docs/${RELEASE}/
+                    mkdir -p /yocto/publish/docs/${RELEASE}
+                    rsync -r -u  build/html/* /yocto/publish/docs/${RELEASE}/
                     """
             }
         }
